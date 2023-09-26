@@ -3,3 +3,6 @@
 	url = ../pc_capturer
 	branch = .
 	update = merge
+[submodule "pc-capturer"]
+	path = pc-capturer
+	url = https://github.com/MatthiasDeFre/pc-capturer
