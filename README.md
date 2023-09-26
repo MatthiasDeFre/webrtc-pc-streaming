@@ -6,7 +6,7 @@ The WebRTC server and client are implemented in Golang by utilizing the Pion Web
 
 # Project Structure
 
-Each component in the architecture is a submodule of this repository and can also be build seperately. The components are designed in a modular fashion which makes it easy to implement your own algorithms if required. As an addition to the compoments we also provide a experiment submodule which can be used to evaluate certain aspects of the pipeline with ease and without the requirement of having specific hardware such as a Intel Realsense camera or Meta Quest 2 HMD.  
+Each component in the architecture is a submodule of this repository and can also be build seperately. The components are designed in a modular fashion which makes it easy to implement your own algorithms if required. As an addition to the compoments we also provide a experiment submodule which can be used to evaluate certain aspects of the pipeline with ease and without the requirement of having specific hardware such as a Intel Realsense camera or Meta Quest 2 HMD. The submodule also has the results from our current evaluations.
 
 # Building
 
