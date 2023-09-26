@@ -1,8 +1,12 @@
-[submodule "pc_capturer"]
-	path = pc_capturer
-	url = ../pc_capturer
-	branch = .
-	update = merge
 [submodule "pc-capturer"]
 	path = pc-capturer
 	url = https://github.com/MatthiasDeFre/pc-capturer
+[submodule "webrtc-pc-server"]
+	path = webrtc-pc-server
+	url = https://github.com/MatthiasDeFre/webrtc-pc-server.git
+[submodule "webrtc-pc-client"]
+	path = webrtc-pc-client
+	url = https://github.com/MatthiasDeFre/webrtc-pc-client.git
+[submodule "pc-renderer"]
+	path = pc-renderer
+	url = https://github.com/MatthiasDeFre/pc-renderer.git
