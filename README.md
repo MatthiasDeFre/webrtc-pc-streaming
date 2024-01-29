@@ -16,6 +16,3 @@ Each submodule has detailed instructions on how to build the corrosponding compo
 ## Dependencies
 
 The provided script (scripts/install_dependancies.ps1) can be used to install all dependancies (except Unity) required for each component. It should be noted that this will take a significant amount of time. For a more fine-tune experience you can also use the install scripts located in each submodule repository. 
-
-## Usage
-TODO
