@@ -10,3 +10,18 @@
 [submodule "pc-renderer"]
 	path = pc-renderer
 	url = https://github.com/MatthiasDeFre/pc-renderer.git
+[submodule "spirit_sfu_june"]
+	path = spirit_sfu_june
+	url = https://github.com/MatthiasDeFre/spirit_sfu_june
+[submodule "spirit_unity_june"]
+	path = spirit_unity_june
+	url = https://github.com/MatthiasDeFre/spirit_unity_june.git
+[submodule "spirit_connector_june"]
+	path = spirit_connector_june
+	url = https://github.com/MatthiasDeFre/spirit_connector_june
+[submodule "spirit_realsense_june"]
+	path = spirit_realsense_june
+	url = https://github.com/MatthiasDeFre/spirit_realsense_june
+[submodule "spirit_draco_june"]
+	path = spirit_draco_june
+	url = https://github.com/MatthiasDeFre/spirit_draco_june
