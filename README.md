@@ -16,3 +16,21 @@ Each submodule has detailed instructions on how to build the corrosponding compo
 ## Dependencies
 
 The provided script (scripts/install_dependancies.ps1) can be used to install all dependancies (except Unity) required for each component. It should be noted that this will take a significant amount of time. For a more fine-tune experience you can also use the install scripts located in each submodule repository. 
+
+## SFU Based Streaming
+We also offer a many-to-many SFU-based streaming solution which makes use of the following repositories:
+
+### [SFU Server and Client](https://github.com/MatthiasDeFre/spirit_sfu_june)
+This repository contains the code for both the SFU server and WebRTC peer. In addition it also includes a dashboard to test the quality adaptation algorithm. You should not run the WebRTC peer yourself as it gets automatically started when using the Unity application.
+
+### [Unity application](https://github.com/MatthiasDeFre/spirit_unity_june/)
+This repository contains the Unity code, it also contains the dll files required for capturing and encoding as well as the WebRTC peer.
+
+### [WebRTC Connector](https://github.com/MatthiasDeFre/spirit_connector_june/) 
+This repository contains the code required to create a dynamic library that is used to connect Unity with the Golang WebRTC peer.
+
+### [Draco Dynamic Library](https://github.com/MatthiasDeFre/spirit_draco_june) 
+This repository contains the code required to create a dynamic library that is used to compress the captured or artifical point clouds using a MDC-based approach.
+
+### [Realsense Dynamic Library](https://github.com/MatthiasDeFre/spirit_realsense_june) 
+This repository contains the code required to create a dynamic library that is used to capture point clouds using a Realsense camera. Additionaly, it can also create artifical point clouds.
