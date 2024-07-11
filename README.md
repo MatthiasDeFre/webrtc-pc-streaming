@@ -4,6 +4,8 @@ This repository provides an end-to-end pipeline to facilitate one-to-many immers
 
 The WebRTC server and client are implemented in Golang by utilizing the Pion WebRTC package, due to its superior support for the Google Congestion Controller which allows us to estimate each user's bandwidth. By using this estimation the server is able to select the best combination of layers for each user. By decoding the received layers in parallel the receiving client is able to render the point cloud.
 
+In addition we also provide a SFU-based pipeline, more information about this can be found [here](https://github.com/MatthiasDeFre/webrtc-pc-streaming?tab=readme-ov-file#sfu-based-streaming).
+
 ## Project Structure
 
 Each component in the architecture is a submodule of this repository and can also be build seperately. The components are designed in a modular fashion which makes it easy to implement your own algorithms if required. As an addition to the compoments we also provide a experiment submodule which can be used to evaluate certain aspects of the pipeline with ease and without the requirement of having specific hardware such as a Intel Realsense camera or Meta Quest 2 HMD. The submodule also has the results from our current evaluations.
