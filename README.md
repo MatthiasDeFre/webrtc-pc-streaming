@@ -25,7 +25,7 @@ We also offer a many-to-many SFU-based streaming solution which makes use of the
 ### [SFU Server and Client](https://github.com/MatthiasDeFre/spirit_sfu_june)
 This repository contains the code for both the SFU server and WebRTC peer. In addition it also includes a dashboard to test the quality adaptation algorithm. You should not run the WebRTC peer yourself as it gets automatically started when using the Unity application.
 
-### [Unity application](https://github.com/MatthiasDeFre/spirit_unity_june/)
+### [Unity application](https://github.com/MatthiasDeFre/pc_m2m_unity/)
 This repository contains the Unity code, it also contains the dll files required for capturing and encoding as well as the WebRTC peer.
 
 ### [WebRTC Connector](https://github.com/MatthiasDeFre/spirit_connector_june/) 
