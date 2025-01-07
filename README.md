@@ -1,3 +1,6 @@
+# ⚠️ Notice:
+This repository is now moved to a different organisation: [one-to-many version](https://github.com/idlab-discover/pc-webrtc-o2m) and [many-to-many version](https://github.com/idlab-discover/pc-webrtc-m2m).
+
 # WebRTC Point Cloud Streaming
 
 This repository provides an end-to-end pipeline to facilitate one-to-many immersive video streaming with point clouds. To capture the point clouds we employ the Intel Realsense SDK 2.0. However, as raw point clouds require significant bandwidth they are encoded by the Google Draco encoder. One of the main qualities of a good streaming system in the current day-and-age is its ability to adapt to the users's network conditions. For this we implemented a layer-based coding solution ontop of Draco which first samples the source point cloud in three layers, each with a different sampling rate. Additionally, we perform parallel draco encoding on these layers to further reduce latency. 
